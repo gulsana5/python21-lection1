@@ -142,4 +142,4 @@ b = 5
 print(id(a))
 print(id(b))
 print(hash(a))
-print(hash(b))
+print(hash(b))==
