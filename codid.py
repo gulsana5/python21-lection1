@@ -1,8 +1,10 @@
-contacts = {
-    'Alice': '+996555667788',
-    'John': '+996777990011',
-    'Sam': '+996550121212'
-}
-
-for info in contacts.items():
-    print(info)
+try:
+    num1 = int(input('Введите первую число: '))
+    num2 = int(input('Введите второе число: '))
+    result = num1 / 2
+except ZeroDivisionError:
+    print('На ноль делить нельзя')
+else:
+    print(result)
+finally:
+    print('Программа завершена')
