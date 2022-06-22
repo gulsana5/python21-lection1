@@ -188,3 +188,4 @@ def translate(string):
 
 print(translate(input("Введите слово: ")))
 
+

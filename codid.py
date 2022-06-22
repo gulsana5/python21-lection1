@@ -1,10 +1,3 @@
-try:
-    num1 = int(input('Введите первую число: '))
-    num2 = int(input('Введите второе число: '))
-    result = num1 / 2
-except ZeroDivisionError:
-    print('На ноль делить нельзя')
-else:
-    print(result)
-finally:
-    print('Программа завершена')
+def get_type():
+    return get_type(5, 's')
+print(get_type())
