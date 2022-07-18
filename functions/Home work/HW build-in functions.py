@@ -82,18 +82,6 @@
 
 #  Task 6
 #    
-import random
 
-def hangman():
-    
-    wold_ = ['вишня', 'картошка', 'питачок', 'арбуз']
-    x = random.choice(wold_)
-    y = 'уеаиоыйя'
-    baraban = 5
-    
-    while baraban > 0:
-        missed = 0
-        for letter in x:
-            print(letter,end=' ')misse
 
 

@@ -1,0 +1,34 @@
+# Task 1
+
+# Создайте класс Auto в нем реализуйте метод ride который выводит сообщение 'Riding on a ground'.
+
+# Создайте класс Boat реализуйте метод swim, который выводит 'Floating on water'.
+
+# Создайте класс Amphibian который наследуется от класса Auto и Boat.
+
+# Создайте от него объект obj и вызовите все методы.
+
+# Ввод:
+
+# obj = Amphibian() 
+# obj.ride() 
+# obj.swim() 
+# Вывод:
+
+# Riding on a ground 
+# Floating on water 
+
+class Auto:
+    def ride(self):
+        print('Riding on a ground')
+
+class Boat:
+    def swim(self):
+        print('Floating on water')
+
+class Amphibian(Auto,Boat):
+    ...
+
+obj = Amphibian() 
+obj.ride() 
+obj.swim()

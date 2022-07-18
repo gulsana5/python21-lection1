@@ -1,25 +1,15 @@
-
-
-
-
-
-
-
-
-
-
-" когда мы не указываем режим - по умолчанию чтение"
+# " когда мы не указываем режим - по умолчанию чтение"
 # open("test.txt") FileNotFoundError:[Errno 2] No such file or
 # directory: 'text.txt'
 
 "======================with========================"
 # with - контрукция, которая в начале конструкции вызывает метод 
-__enter__,
+# __enter__,
 
 class Test:
     def __enter__(self, *args, **kwargs):
         print("начала работы")
-        return sels
+        return 
     
     def __exit__(self):
         print("конец работы")
